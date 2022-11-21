@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Subjects</title>
+        <style>
+                body {font-family: Verdana; font-size: 20px; text-align: center;color: blue;}
+                input { color: blue; background-color: yellow; }
+                button { color: yellow; background-color: green; font-size: 25px; }
+                .info {color: blueviolet; font-size: 25px; font-family: 'Times New Roman', Times, serif}
+        </style>
+</head>
+<body>
+        <h1>Grades Calculator </h1>
+        <p>Please type number of subjects and press a button</p>
+        <p class="small" style="font-size: 10px">(<strong>Subjects</strong> ask only for results, while 
+                <strong>Version 2 </strong> also asks for subjects name)
+        </p>
+        <form action=""  onsubmit="return false;">
+                <input type="text" id="numberOfSubs" />
+                <button onclick="getNumberOfSubs()">Subjects</button>
+                <button onclick="getNumberOfSubs2()">Version 2</button>
+        </form>
+        <div class="info" id="result">
+
+
+        </div>
+        <script src="subjects.js"></script>
+</body>
+</html>
